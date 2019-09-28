@@ -1,3 +1,5 @@
+# Eu fiz o Fork do repositório do livro para fazer os exercíos e testar os códigos apresentados durante a leitura e estudo - 28/09/2019.
+
 <a href="http://entendendoes6.com.br/" target="_blank">
     <img src="logo.png" alt="Entendendo o ECMAScript 6" title="Entendendo o ECMAScript 6" align="right" height="60" />
 </a>
