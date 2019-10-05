@@ -35,7 +35,7 @@ var numeros = [0, 1, 2, 3, 4, 5];
 console.log('Saída:');
 
 var saida = numeros.forEach(function(num){
-    if (((num % 2) === 0)) {
+    if ((num % 2) === 0) {
         console.log(`${num} é par.`);
     } else {
         console.log(`${num} é ímpar.`)

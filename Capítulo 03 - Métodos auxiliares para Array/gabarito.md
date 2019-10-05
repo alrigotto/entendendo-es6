@@ -48,6 +48,13 @@ function validaParenteses(parenteses) {
 }
 ```
 
+
+
+
+
+
+
+
 ## Exercício 5 - Sem duplicações
 ``` javascript
 function removeDuplicatas(numeros) {

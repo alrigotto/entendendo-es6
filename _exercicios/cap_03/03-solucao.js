@@ -5,14 +5,12 @@ Escreva o método `caps` que recebe um array de strings e retorna um outro array
 * Exemplo: caps(['oi', 'tudo', 'bem?']) → ['OI', 'TUDO', 'BEM?']
 */
 
-a = ['andre', 'luiz', 'rigotto'];
+a = ['andre', 'luiz', 'rigotto', "feliz"];
 
-b = a.map(str => str.toUpperCase());
+function caps(palavras) {
+    return palavras.map(str => str.toUpperCase()); 
+}
+
+b = caps(a);
+
 console.log(b);
-
-
-
-
-
-
-

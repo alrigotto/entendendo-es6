@@ -136,7 +136,7 @@ console.log(aluno);
 console.log("(*)O 'find' se comporta da mesma forma acima, ou seja, somente será retornado a primeira ocorrência da lista.");
 
 /*
-A partir daqui somente irei fazer o código do elemento ou méétodo que estou
+A partir daqui somente irei fazer o código do elemento ou método que estou
 estudando,não vou mais fazer o equivalente em 'for'.
 */
 
