@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Executar Programa",
-            "program": "${workspaceFolder}/_exercicios/cap_03/08-solucao.js"
+            "program": "${workspaceFolder}/_exercicios/cap_03/09-solucao.js"
         }
     ]
 }

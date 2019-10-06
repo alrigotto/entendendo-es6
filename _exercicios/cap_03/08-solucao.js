@@ -31,5 +31,5 @@ function calculaAreaTotal(dim) {
 
 }
 // Minha solução ficou idêntica a do autor.
-console.log(calculaAreaTotal(dimensoes));
+console.log("O valor total da área é:", calculaAreaTotal(dimensoes), "m²");
 
