@@ -53,9 +53,9 @@ function removeDuplos(vetor) {
     return veto;
 }
 
-const original = [-1,-1,0,0,0];
-const teste = removeDuplos (original);    // solução minha
-const teste = removeDuplicatas (original);  // solução do autor
+const original = [-1, -1, 0, 0, 0, 5, 6, 6, 7, 8, 6];
+const teste = removeDuplos(original);    // solução minha
+// const teste = removeDuplicatas (original);  // solução do autor
 console.log("===========================================");
 console.log("Original:", original);
 console.log("Resultado sem duplos:", teste);
@@ -90,85 +90,3 @@ function removeDuplicatas(numeros) {
 
 
 
-
-
-
-
-
-
-
-
-/*
-function removeDuplos(vetor) {
-    let novamente = false;
-    let vet = [...vetor];
-    let red = vet.reduce(function(acc, elem) {
-        console.log("analisando -->", elem);
-        let duplo = 0;
-        vet.find(function(procura) {
-            console.log(procura);
-            if (elem === procura) {
-                duplo++;
-                if (duplo > 1) {
-                    console.log("DUPLO", duplo);
-                    if (acc.find(x => x === elem) === undefined) { acc.push(elem) }
-                }
-            }
-        });
-        console.log("Repetidos -->", acc);
-        console.log("--------------------");
-        return acc;
-    }, []);
-
-
-    // Deletando elementos repetidos.
-    red.find(function(y) {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!! deletando...");
-        console.log("vet: ", vet);
-        console.log("red: ", red);
-        if (vet.indexOf(y) !== -1) {
-            vet.splice(vet.indexOf(y), 1)
-        }
-        console.log("!!!!!!!!!!!!!!!!!!!!!!!!!! Já deletou!");
-    });
-    console.log("vet na saida do delete: ", vet);
-    console.log("red na saida do delete: ", red);
-
-    vet.find(z => {
-        let t = 0;
-        vet.find(w => {
-            if (z === w) {
-                t++;
-                if (t > 1) {
-                    novamente = true;
-                    // removeDuplos(vet);
-                    return w;
-                }
-                // console.log("under investigation",vet);
-            }
-            // console.log("under investigation",vet);
-        });
-        // console.log("under investigation",vet);
-    });
-    console.log("under investigation", vet);
-    if (novamente) {
-        console.log("########################### Recursivo");
-        console.log("vet", vet);
-        removeDuplos(vet);
-    } else {
-        veto = [...vet];
-
-        console.log("under investigation veto", veto);
-        console.log('sem repeteco');
-
-    }
-    return veto;
-}
-
-
-const original = [1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 6, 5, 8, 9, 3, 3, 3, 0, 0, 9];
-const teste = removeDuplos(original);
-console.log("===========================================");
-console.log("Original:", original);
-console.log("Resultado sem duplos:", teste);
-*/

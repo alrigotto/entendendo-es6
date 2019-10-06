@@ -47,14 +47,6 @@ function validaParenteses(parenteses) {
   return balanceado;
 }
 ```
-
-
-
-
-
-
-
-
 ## Exercício 5 - Sem duplicações
 ``` javascript
 function removeDuplicatas(numeros) {
