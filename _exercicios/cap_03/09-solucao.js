@@ -14,5 +14,14 @@ function calculaRaizesQuadradas(matriz){
     return matriz.map(elem => Math.sqrt(elem));    
 }
 
-console.log("As raízes são:", calculaRaizesQuadradas(vetor));
+function calculaRaizesQuadradas2(matriz){
+    a = [];
+    matriz.forEach(elem => {
+        a.push(Math.sqrt(elem))
+    });
+    return a;
+
+}
+
+console.log("As raízes são:", calculaRaizesQuadradas2(vetor));
 
