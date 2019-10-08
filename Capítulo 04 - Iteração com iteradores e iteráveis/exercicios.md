@@ -5,7 +5,7 @@ Nestes exercícios iremos exercitar os conceitos de Iteradores e Iteráveis.
 ## Exercício 1 - Você está muito longe
 Implemente uma função chamada `calculaDistancia` que recebe uma lista de objetos que representam ruas e faça a soma de seus tamanhos. Cada objeto `rua` da lista possui as seguintes propriedades:
 - nome: String que representa o nome da rua
-- tamanho: Número intero que representa a comprimento da rua em metros
+- tamanho: Número inteiro que representa a comprimento da rua em metros
 
 Utilize somente os conceitos que foram apresentados neste capítulo para iterar as `ruas`. Assuma que sempre haverá pelo menos uma rua no array.
 
