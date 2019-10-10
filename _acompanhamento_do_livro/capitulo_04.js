@@ -2,14 +2,12 @@
 Livro "ECMAScript 6 - Entre de cabeça no futuro do JavaScript"
 Autor: Diego Martins de Pinho.
 Enquanto leio o livro,  estou digitando e testando os código contidos nele.
-Para fazer as explicações aparecerem no terminal, eu resolvi usar o 'echo'
-ao invés de usar linhas comentadas para explicar os códigos.
 ============================================================
 ===================== CAPITULO 4° ==========================
 ============================================================
 */
 
-//================Iteradores e Iteráveis ===================
+//=============== Iteradores e Iteráveis ===================
 
 //array:
 var nomes = ['Andre Rigotto', 'Neuza Meira', 'Rodrigo Bedutti', 'Débora Vidal'];
